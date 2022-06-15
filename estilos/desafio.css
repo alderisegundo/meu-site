@@ -32,7 +32,7 @@
 
 body {
     background-color: var(--cor1);
-    min-height: 100vh;
+    min-height: 350px;
 }
 
 header {
@@ -208,13 +208,17 @@ aside a:hover {
 
 div.lists {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
 .lists ul {
     font: bolder 1rem var(--font-padrao);
     list-style-type: '\2714\00A0\00A0';
     margin-bottom: 1rem;
+    column-count: 2;
+    column-gap: 10px;
+    padding: 0 1rem;
 }
 
 div.last-p {
