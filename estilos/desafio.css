@@ -216,9 +216,8 @@ div.lists {
     font: bolder 1rem var(--font-padrao);
     list-style-type: '\2714\00A0\00A0';
     margin-bottom: 1rem;
-    column-count: 2;
-    column-gap: 10px;
-    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 div.last-p {
