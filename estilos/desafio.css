@@ -42,7 +42,7 @@ header {
 }
 
 header h1 {
-    font: 3rem 'Bebas Neue', cursive;
+    font: 3rem var(--font-padrao);
     color: var(--cor0);
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
     padding-top: 2rem;
