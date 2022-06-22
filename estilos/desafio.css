@@ -52,7 +52,7 @@ header h1 {
 header p {
     font: normal 1rem var(--font-padrao);
     color: var(--cor0);
-    min-width: 350px;
+    max-width: 350px;
     margin: 0 auto;
     padding: .5rem 1rem 1rem;
     text-align: center;
