@@ -32,7 +32,7 @@
 
 body {
     background-color: var(--cor1);
-    min-height: 350px;
+    min-width: 350px;
 }
 
 header {
@@ -52,9 +52,9 @@ header h1 {
 header p {
     font: normal 1rem var(--font-padrao);
     color: var(--cor0);
-    max-width: 400px;
+    max-width: 350px;
     margin: 0 auto;
-    padding: .5rem 0 1rem;
+    padding: .5rem 1rem 1rem;
     text-align: center;
 }
 
